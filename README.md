@@ -242,7 +242,6 @@ This project sits at the intersection of **AI Safety**, **Adversarial NLP**, and
 B.Tech Computer Engineering — Delhi Technological University (DTU), Batch 2025–2029  
 GSSoC 2026 Contributor | Competitive Programmer | ML/AI Enthusiast
 
-[![GitHub](https://img.shields.io/badge/GitHub-rohanharit-181717?style=flat&logo=github)](https://github.com/rohanharit)
 
 ---
 
