@@ -1,0 +1,30 @@
+{
+  "allow_threshold": 0.38,
+  "rewrite_threshold": 0.48,
+  "block_threshold": 0.68,
+  "post_replace_threshold": 0.56,
+  "risk_decay": 0.72,
+  "turn_weight": 0.58,
+  "max_evidence_items": 8,
+  "category_weights": {
+    "cyber_abuse": 0.34,
+    "weapons": 0.36,
+    "credential_theft": 0.35,
+    "privacy_abuse": 0.32,
+    "self_harm": 0.42,
+    "financial_fraud": 0.34,
+    "biosecurity": 0.40,
+    "extremism": 0.36,
+    "physical_intrusion": 0.32,
+    "policy_evasion": 0.30
+  },
+  "signal_weights": {
+    "operationalization": 0.22,
+    "prompt_evasion": 0.18,
+    "roleplay_disguise": 0.12,
+    "memory_stacking": 0.11,
+    "semantic_drift": 0.13,
+    "obfuscation": 0.10,
+    "safety_research_context": -0.11
+  }
+}

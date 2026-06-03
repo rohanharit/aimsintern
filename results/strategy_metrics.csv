@@ -1,0 +1,6 @@
+strategy,attack_successes,attack_total,asr,intercept_rate,control_block_count,control_total,control_block_rate,avg_guard_latency_ms,avg_model_latency_ms
+none,10,10,1.0,0.0,0,5,0.0,0.49190221794156563,0.4886355587384767
+rolling_gate,2,10,0.2,0.8,0,5,0.0,0.41516444697562194,0.34911388583067393
+context_quarantine,0,10,0.0,1.0,0,5,0.0,0.4382222192361951,0.3541577762613694
+post_guard,0,10,0.0,1.0,0,5,0.0,1.0585088890770242,0.46577555670713383
+layered,0,10,0.0,1.0,0,5,0.0,1.0384888918552961,0.33773889299482107

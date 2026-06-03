@@ -1,0 +1,30 @@
+{
+  "permit_threshold": 0.38,
+  "flag_threshold": 0.48,
+  "halt_threshold": 0.68,
+  "output_scan_threshold": 0.56,
+  "decay_rate": 0.72,
+  "increment_weight": 0.58,
+  "max_evidence_items": 8,
+  "domain_weights": {
+    "network_intrusion": 0.34,
+    "armament": 0.36,
+    "identity_theft": 0.35,
+    "surveillance_abuse": 0.32,
+    "self_injury": 0.42,
+    "economic_fraud": 0.34,
+    "biohazard": 0.40,
+    "radicalization": 0.36,
+    "facility_breach": 0.32,
+    "constraint_bypass": 0.30
+  },
+  "signal_weights": {
+    "procedural_request": 0.22,
+    "evasion_attempt": 0.18,
+    "persona_framing": 0.12,
+    "context_reference": 0.11,
+    "drift_escalation": 0.13,
+    "concealment": 0.10,
+    "defensive_framing": -0.11
+  }
+}
